@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".sign">
+
+    <FrameLayout
+        android:layout_width="393dp"
+        android:layout_height="807dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/v1"/>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/ikon"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome Back,"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="10pt"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login now to continue"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="@drawable/lengkung"
+            android:backgroundTint="#D9D9D9"
+            android:padding="24px">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Login Form"
+                android:gravity="center"
+                android:textSize="12pt"
+                android:fontFamily="sans-serif-medium"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_baseline_email_24"/>
+                    <EditText
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:hint="email address"
+                        android:paddingLeft="20px"
+                        android:id="@+id/email"
+                        android:layout_margin="25px"
+                        android:background="@drawable/lengkung"
+                        android:backgroundTint="#FFFFFF"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_baseline_lock_24"/>
+                    <EditText
+                        android:layout_width="250dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="20px"
+                        android:hint="password"
+                        android:id="@+id/pass"
+                        android:layout_margin="25px"
+                        android:background="@drawable/lengkung"
+                        android:backgroundTint="#FFFFFF"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forget Password?"/>
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25px"
+                    android:background="@drawable/lengkung"
+                    android:id="@+id/login"
+                    android:hint="Login"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25px"
+                    android:text="Don't have an Account?"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
