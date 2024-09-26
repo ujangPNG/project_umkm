@@ -1,44 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:layout_alignParentTop="true"
-        >
+        android:layout_centerInParent="true">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#F5E8D0"/>
+            android:background="@drawable/home_page"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/white">
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/lengkung_tipis"
+                android:backgroundTint="#C58B50"
+                android:padding="5dp">
                 <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="foto profil"
-                    android:layout_gravity="left"/>
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_gravity="left"
+                    />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Hi [user], Welcome  back!"
                     android:textSize="7pt"
-                    android:layout_gravity="left"/>
+                    android:layout_gravity="center_vertical"
+                    />
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"/>
 
             </LinearLayout>
-    </RelativeLayout>
-</ScrollView>
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>
