@@ -18,13 +18,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/home_page"/>
+
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
                 <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
+                android:layout_height="38dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
@@ -60,15 +63,263 @@
                             android:layout_marginRight="10dp"/>
                     </RelativeLayout>
                 </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/lengkung_tipis"
+                    android:backgroundTint="#EED9B4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp">
 
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_baseline_account_balance_wallet_24"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Saldo Wallet"
+                                    android:textSize="5pt"
+                                    android:gravity="center_vertical"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:text="1.000.000"
+                                    android:textSize="5pt"/>
+                            </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_baseline_monetization_on_24"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Bonus Koin"
+                                android:textSize="5pt"
+                                android:gravity="center_vertical"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="1.000.000"
+                                android:textSize="5pt"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp">
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_baseline_discount_24"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Voucher"
+                                android:textSize="5pt"
+                                android:gravity="center_vertical"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:background="@drawable/lengkung"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/Group27"/>
                 <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:orientation="horizontal"
-                android:background="@drawable/lengkung_tipis">
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/lengkung"
+                    android:backgroundTint="#E0C075">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Etalase"
+                        android:textStyle="bold"
+                        android:textSize="8pt"
+                        android:layout_marginLeft="15dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:gravity="center">
 
+
+                        <LinearLayout
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+                            <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Kue Parcel"
+                                android:textSize="6pt"
+                                android:textStyle="bold"
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+                            <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Roti Trdisional"
+                                android:textSize="6pt"
+                                android:textStyle="bold"
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+                            <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Hidangan Penutup"
+                                android:textSize="6pt"
+                                android:textStyle="bold"
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+                            <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Kue Basah"
+                                android:textSize="6pt"
+                                android:textStyle="bold"
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="65dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp">
+                            <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_marginBottom="5dp"
+                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Birthday cake"
+                                android:textSize="6pt"
+                                android:textStyle="bold"
+                        </LinearLayout>
+
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:background="@drawable/lengkung"
+                    android:backgroundTint="#E0C075">
+                    
+                </RelativeLayout>
             </LinearLayout>
-            </LinearLayout>
+
+
+
         </FrameLayout>
     </ScrollView>
 </RelativeLayout>
