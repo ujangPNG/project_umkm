@@ -167,11 +167,11 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="210dp"
-                    android:background="@drawable/lengkung"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/Group27"/>
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/lengkung"
+                    android:src="@drawable/Group27" />
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
@@ -207,7 +207,7 @@
                                 android:layout_width="55dp"
                                 android:layout_height="55dp"
                                 android:layout_marginBottom="5dp"
-                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                                android:src="@drawable/aa"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -227,7 +227,7 @@
                                 android:layout_width="55dp"
                                 android:layout_height="55dp"
                                 android:layout_marginBottom="5dp"
-                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                                android:src="@drawable/bb"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -247,7 +247,7 @@
                                 android:layout_width="55dp"
                                 android:layout_height="55dp"
                                 android:layout_marginBottom="5dp"
-                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                                android:src="@drawable/cc"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -267,7 +267,7 @@
                                 android:layout_width="55dp"
                                 android:layout_height="55dp"
                                 android:layout_marginBottom="5dp"
-                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                                android:src="@drawable/dd"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -287,7 +287,7 @@
                                 android:layout_width="55dp"
                                 android:layout_height="55dp"
                                 android:layout_marginBottom="5dp"
-                                android:src="@drawable/ic_baseline_monetization_on_24"/>
+                                android:src="@drawable/ee"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -305,7 +305,7 @@
                     </LinearLayout>
 
                 </LinearLayout>
-                <RelativeLayout
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
@@ -314,8 +314,77 @@
                     android:gravity="center"
                     android:background="@drawable/lengkung"
                     android:backgroundTint="#E0C075">
-                    
-                </RelativeLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/lengkung"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/a11"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Roti Bluder Khas Madiun"
+                                android:textSize="6pt"
+                                android:layout_marginLeft="5dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rp 17.799"
+                                android:textStyle="bold"
+                                android:gravity=""
+                                android:textSize="8pt"
+                                android:layout_marginLeft="5dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/lengkung"
+                            android:backgroundTint="@color/white"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/a22"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kue Lumpur Improve Formula"
+                                android:textSize="6pt"
+                                android:layout_marginLeft="5dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rp 25.499"
+                                android:textStyle="bold"
+                                android:gravity=""
+                                android:textSize="8pt"
+                                android:layout_marginLeft="5dp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
             </LinearLayout>
 
 
