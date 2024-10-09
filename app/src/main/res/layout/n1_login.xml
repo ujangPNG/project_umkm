@@ -82,7 +82,7 @@
                             android:layout_gravity="center"
                             android:hint="email address"
                             android:paddingLeft="20px"
-                            android:id="@+id/email"
+                            android:id="@+id/i_email"
                             android:layout_margin="25px"
                             android:background="@drawable/lengkung"
                             android:backgroundTint="#FFFFFF"/>
@@ -101,7 +101,7 @@
                             android:layout_gravity="center"
                             android:paddingLeft="20px"
                             android:hint="password"
-                            android:id="@+id/pass"
+                            android:id="@+id/i_pass"
                             android:layout_margin="25px"
                             android:background="@drawable/lengkung"
                             android:backgroundTint="#FFFFFF"/>
@@ -117,7 +117,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="25px"
                         android:background="@drawable/lengkung"
-                        android:id="@+id/login"
+                        android:id="@+id/b_login"
                         android:hint="Login"/>
                     <TextView
                         android:layout_width="wrap_content"
