@@ -164,10 +164,11 @@
                 android:orientation="vertical"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/Group24"/>
+                    android:src="@drawable/Group24" />
             </RelativeLayout>
         </LinearLayout>
 
