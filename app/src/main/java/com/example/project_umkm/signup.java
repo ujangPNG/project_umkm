@@ -32,14 +32,14 @@ public class signup extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        this.user = findViewById(R.id.user);
-        this.pass = findViewById(R.id.pass);
-        this.login = findViewById(R.id.login);
+        this.user = findViewById(R.id.i_email);
+        this.pass = findViewById(R.id.i_pass);
+        this.login = findViewById(R.id.b_login);
         this.exit = findViewById(R.id.exit);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(n3.this, MainActivity2.class);
                 startActivity(intent);
             }
         });

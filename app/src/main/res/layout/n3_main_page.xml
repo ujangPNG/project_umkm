@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".MainActivity">
+    tools:context=".n3">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
         android:layout_centerInParent="true">
         <FrameLayout
             android:layout_width="match_parent"
@@ -176,7 +177,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
                     android:gravity="center_vertical"
-                    android:orientation="vertical"android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginLeft="20dp"
                     android:background="@drawable/lengkung"
@@ -214,7 +216,7 @@
                                 android:gravity="center"
                                 android:text="Kue Parcel"
                                 android:textSize="6pt"
-                                android:textStyle="bold"
+                                android:textStyle="bold"/>
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="65dp"
@@ -234,7 +236,7 @@
                                 android:gravity="center"
                                 android:text="Roti Trdisional"
                                 android:textSize="6pt"
-                                android:textStyle="bold"
+                                android:textStyle="bold"/>
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="65dp"
@@ -254,7 +256,7 @@
                                 android:gravity="center"
                                 android:text="Hidangan Penutup"
                                 android:textSize="6pt"
-                                android:textStyle="bold"
+                                android:textStyle="bold"/>
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="65dp"
@@ -274,7 +276,7 @@
                                 android:gravity="center"
                                 android:text="Kue Basah"
                                 android:textSize="6pt"
-                                android:textStyle="bold"
+                                android:textStyle="bold"/>
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="65dp"
@@ -294,7 +296,7 @@
                                 android:gravity="center"
                                 android:text="Birthday cake"
                                 android:textSize="6pt"
-                                android:textStyle="bold"
+                                android:textStyle="bold"/>
                         </LinearLayout>
 
 
@@ -391,4 +393,49 @@
 
         </FrameLayout>
     </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="#A45D37"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_baseline_home_24" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:padding="2dp"
+
+            android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:padding="2dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:padding="2dp"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
 </RelativeLayout>

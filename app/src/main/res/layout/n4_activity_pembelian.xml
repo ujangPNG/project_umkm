@@ -76,7 +76,7 @@
                     android:layout_height="match_parent"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:src="@drawable/ic_baseline_favorite_24"/>
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -167,7 +167,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/Group24"
+                    android:src="@drawable/Group24"/>
             </RelativeLayout>
         </LinearLayout>
 
